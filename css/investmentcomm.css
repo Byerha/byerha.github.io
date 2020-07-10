@@ -1,0 +1,120 @@
+/* 招商加盟样式 */
+
+
+/* 招商加盟banner图 */
+
+.bg_hd .img {
+    background-image: url(../images/banner_zs.png);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* 合作须知样式 */
+
+
+/* 内容盒子大小 */
+
+.art {
+    padding: 104px 0 84px;
+    opacity: 0;
+}
+
+
+/* 图片放大 */
+
+.art img:hover {
+    transform: scale(1.1);
+}
+
+.art p {
+    line-height: 3;
+}
+
+.art img {
+    transition: transform .5s;
+}
+
+.art_brand1 .art_lft {
+    float: left;
+    width: 56%;
+    overflow: hidden;
+}
+
+.art_brand1 .art_rht {
+    float: right;
+    width: 42%;
+}
+
+.art_brand1 .art_rht p {
+    margin-bottom: 14px;
+}
+
+.art_brand2 .art_lft {
+    float: left;
+    width: 56%;
+}
+
+.art_brand2 .art_rht {
+    float: right;
+    width: 42%;
+    overflow: hidden;
+}
+
+.art_brand2 .btitle {
+    font-size: 28px;
+    margin: 14px 0 28px 0;
+    color: #565656;
+}
+
+.art_brand2 .btxt h3 {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+
+/* 合作优势样式 */
+
+.col_l {
+    width: 46%;
+    float: left;
+    padding: 0 15px;
+    font-size: 10px;
+    line-height: 3;
+}
+
+.col_l strong {
+    font-weight: bold;
+}
+
+.col_l p {
+    margin: 14px 0;
+}
+
+.col_l .tit {
+    text-align: center;
+}
+
+.col_r {
+    width: 47%;
+    float: left;
+    padding: 0 15px;
+    padding-top: 20px;
+    opacity: 0;
+}
+
+
+/* 合作支持样式 */
+
+.hz_p {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.hzzc {
+    text-align: center;
+    padding-top: 50px;
+    opacity: 0;
+}

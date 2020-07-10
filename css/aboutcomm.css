@@ -1,0 +1,335 @@
+/* about页面下样式 */
+
+
+/* 公共图片样式 */
+
+img {
+    width: 100%;
+}
+
+
+/* list2样式 */
+
+
+/* 图片盒子样式 */
+
+.art {
+    padding: 84px 0;
+}
+
+.art img:hover {
+    transform: scale(1.2);
+}
+
+.art img {
+    transition: transform 1s;
+}
+
+
+/* brand1样式 */
+
+.art_brand1 .art_lft {
+    float: left;
+    width: 56%;
+    overflow: hidden;
+}
+
+.art_brand1 .art_rht {
+    float: right;
+    width: 42%;
+}
+
+.art_brand1 .art_rht p {
+    margin-bottom: 14px;
+}
+
+
+/* brand2样式 */
+
+.art_brand2 .art_lft {
+    float: left;
+    width: 42%;
+}
+
+.art_brand2 .art_rht {
+    float: right;
+    width: 56%;
+    overflow: hidden;
+}
+
+.art_brand2 .btitle {
+    font-size: 28px;
+    margin: 14px 0 28px 0;
+    color: #565656;
+}
+
+.art_brand2 .btxt h3 {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+
+/* list 3样式 */
+
+
+/* 历程展示样式 */
+
+.ibox .h3 {
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 70px;
+    font-size: 28px;
+}
+
+.ibox .his {
+    padding-top: 70px;
+    overflow: hidden;
+    position: relative;
+    height: 464px;
+}
+
+.ibox .his::after {
+    content: "";
+    left: 0;
+    height: 50px;
+    background: url(../images/line.png) repeat-x 56% top;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.ibox .his .scroll {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.ibox .his .lc {
+    width: 1600px;
+    height: 100%;
+}
+
+.ibox .his li {
+    float: left;
+    position: relative;
+    width: 320px;
+    height: 100%;
+}
+
+.ibox .his li .box {
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid #e4e4e4;
+    height: 150px;
+    background-color: #fff;
+    position: relative;
+}
+
+.ibox .his li .activeli {
+    background-color: #131313;
+    color: #fff;
+}
+
+.ibox .his li .arrow {
+    width: 17px;
+    height: 13px;
+    background: url(../images/arrow.png) no-repeat #f1f1f1;
+    position: absolute;
+    left: 46%;
+    bottom: -14px;
+    z-index: 10;
+}
+
+.ibox .his li .arrow2 {
+    background: url(../images/arrow2.png) no-repeat #f1f1f1;
+}
+
+.ibox .his li .box2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.his ul li .line {
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+    height: 60px;
+    background-size: cover;
+}
+
+.his ul li .year {
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+    font-family: Arial;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.his ul li:nth-child(even) {
+    margin: 0 -160px;
+}
+
+.his ul li:nth-child(even) .box {
+    top: 60%;
+}
+
+.his ul li:nth-child(even) .arrow {
+    top: -14px;
+    transform: rotate(-180deg);
+}
+
+.his ul li:nth-child(even) .year {
+    top: 30%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+    background-color: rgba(42, 42, 42, 0.61);
+}
+
+
+/* 此处引用网上方法制作 */
+
+
+/* 滑块颜色 */
+
+ ::-webkit-scrollbar-track {
+    border-radius: 16px;
+    background-color: rgba(42, 42, 42, 0.61);
+}
+
+
+/* 滚动条的滑轨背景颜色 */
+
+ ::-webkit-scrollbar-button {
+    background-color: transparent;
+    height: 0px;
+    width: 0px
+}
+
+
+/* 滑轨两头的监听按钮颜色 */
+
+ ::-webkit-scrollbar-corner {
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+}
+
+
+/* 横向滚动条和纵向滚动条相交处尖角的颜色 */
+
+
+/* ibox2荣誉样式 */
+
+.ibox2 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.ibox2 .ry {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ibox2 .ry li {
+    margin-bottom: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ibox2 .ry img {
+    transition: transform .5s;
+}
+
+.ibox2 .ry li:hover img {
+    transform: scale(1.1);
+}
+
+
+/* list4样式 */
+
+
+/* 视频展示样式 */
+
+.container .title {
+    text-align: center;
+    padding: 50px 0 40px;
+    font-size: 28px;
+}
+
+.container .video {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container .video dd {
+    margin-bottom: 6%;
+}
+
+.container .video a {
+    display: block;
+    padding: 30px 26px 26px;
+    background-color: #fff;
+    text-align: center;
+    color: #666666;
+}
+
+.container .video .img {
+    overflow: hidden;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    margin-top: 25px;
+}
+
+.container .video .img img {
+    width: 100%;
+    display: block;
+    transition: transform .5s;
+}
+
+.container .video .img .vico {
+    background: url(../images/vico.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -42px 0 0 -42px;
+    transform: scale(0.6);
+    opacity: 0;
+    transition: transform .5s;
+    transition: opacity .8s;
+}
+
+.container .video .tit {
+    font-size: 22px;
+    color: #6f6f6f;
+    margin-top: 14px;
+}
+
+
+/* 播放图标样式 */
+
+.container .video .icon {
+    height: 1px;
+    margin: 14px auto;
+    width: 58px;
+    background-color: #8e8e8e;
+    display: block;
+}

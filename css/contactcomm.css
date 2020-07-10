@@ -1,0 +1,165 @@
+/* 联系我们样式 */
+
+
+/* banner背景更换 */
+
+.bg_hd .img {
+    background-image: url(../images/banner_lx.png);
+}
+
+.container {
+    width: 1200px;
+}
+
+.lft {
+    float: left;
+}
+
+.rgh {
+    float: right;
+}
+
+.container .phtit {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* 联系公共样式 */
+
+.container .txt {
+    width: 475px;
+    height: 640px;
+    padding: 20px 50px 50px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0 30px #ebebeb;
+}
+
+.container .ptit {
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.container .en {
+    font-size: 16px;
+    padding: 10px 0 0;
+}
+
+.container p {
+    padding: 10px 0;
+}
+
+
+/* 左侧详细联系方式 */
+
+.container .icon {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+
+.container .address,
+.container .tels,
+.container .email,
+.container .qq {
+    position: relative;
+    width: 400px;
+    padding: 10px 0 0 50px;
+}
+
+.container .address {
+    height: 280px;
+}
+
+.container strong {
+    font-size: 16px;
+    color: #332c21;
+    font-weight: bold;
+}
+
+.container .tels {
+    height: 40px;
+}
+
+.container .tels strong {
+    font-size: 20px;
+    color: #332c21;
+    font-weight: bold;
+}
+
+.container .email,
+.qq {
+    height: 60px;
+}
+
+
+/* 右侧联系表单样式 */
+
+.container .form {
+    position: relative;
+    padding-top: 10px;
+}
+
+.container .form .formlist {
+    margin-bottom: 20px;
+}
+
+.container .form .ipt_txt {
+    border: 1px solid #d8d8d9;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 20px;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+}
+
+.container .form i {
+    color: #ff0000;
+}
+
+.container .formare {
+    position: relative;
+}
+
+.container .formare .ipt_txtarea {
+    border: 1px solid #d8d8d9;
+    line-height: 30px;
+    width: 400px;
+    padding: 20px;
+    outline: none;
+    font-size: 16px;
+    /* 禁止拖拽大小 */
+    resize: none;
+}
+
+.container .formare i {
+    position: absolute;
+    top: 50%;
+    margin-left: 5px;
+}
+
+.container .form button {
+    position: absolute;
+    bottom: -75px;
+    left: 48%;
+    transform: translateX(-50%);
+    background-color: #333;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 20px #999;
+}
+
+.container .form button:hover {
+    background-color: #aaaaaa;
+}

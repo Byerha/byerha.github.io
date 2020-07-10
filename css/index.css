@@ -1,0 +1,453 @@
+/* 滚动屏幕部分 */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-width: 1810px;
+    min-height: 640px;
+    background-color: #f7f8f3;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+
+/* 修改导航圆点li的样式 */
+
+#fp-nav.fp-right {
+    right: 5%;
+}
+
+#fp-nav ul li a span {
+    width: 11px;
+    height: 11px;
+    margin: -6px 0 0 -6px;
+    background: rgba(0, 0, 0, .3);
+}
+
+#fp-nav ul li a.active span {
+    background: #ff0000;
+}
+
+
+/* 首页公共样式 */
+
+.section {
+    position: relative;
+    text-align: center;
+    color: #1a1919;
+    background-color: #fff;
+    line-height: 1.8;
+    transition: tramsform 1s;
+    transform: scale(0.85);
+}
+
+.ptit {
+    text-align: center;
+    padding-top: 168px;
+    color: #1a1919;
+    font-size: 34px;
+    margin: 14px 0;
+    letter-spacing: 5px;
+}
+
+.topmore {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    bottom: 3%;
+    z-index: 1;
+}
+
+.topmore a {
+    display: inline-block;
+    border-radius: 14px;
+    padding: 5px 28px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+
+/* 第一屏样式 */
+
+.section1 .ibox {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wz_new1 img,
+.wz_new3 img {
+    width: 100%;
+}
+
+.wz_new1 {
+    position: absolute;
+    left: 33.01%;
+    top: 17.45%;
+    width: 33.78%;
+    height: 14.71%;
+}
+
+.wz_new3 {
+    position: absolute;
+    left: 45%;
+    top: 84.9%;
+    width: 10%;
+    height: 4.43%;
+}
+
+.section1 .container {
+    height: 349px;
+    width: 80%;
+    margin: 20% auto 0 auto;
+    overflow: hidden;
+}
+
+.section1 ul {
+    display: flex;
+    height: 349px;
+}
+
+.section1 li {
+    flex: 1;
+    height: 100%;
+    width: 16.6%;
+    margin-right: 5px;
+}
+
+.section1 li img {
+    height: 100%;
+}
+
+.left_line {
+    cursor: pointer;
+    position: absolute;
+    left: 9.59%;
+    top: 42.32%;
+    width: 2%;
+    height: 20.33%;
+}
+
+.right_line {
+    cursor: pointer;
+    position: absolute;
+    left: 88.21%;
+    top: 42.32%;
+    width: 2%;
+    height: 20.33%;
+}
+
+
+/* 第二屏样式 */
+
+.section2 .p1 {
+    width: 37%;
+    position: absolute;
+    left: -47%;
+    top: 24%;
+}
+
+.section2 .p1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2 .info {
+    position: absolute;
+    left: 55%;
+    width: 480px;
+    top: 15%;
+    color: #1a1919;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.section2 .ptitle {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    color: #1a1919;
+    text-align: left;
+    padding-top: 84px;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin: 14px 0;
+    opacity: 0;
+}
+
+.section2 .text {
+    position: relative;
+    top: 20px;
+    margin: 14px 0;
+    font-size: 18px;
+    color: #1a1919;
+    opacity: 0;
+}
+
+.section2 .entext {
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    font-family: Verdana;
+    color: #8b8a8a;
+    opacity: 0;
+}
+
+
+/* 第三屏制作· */
+
+.section3 .proleft {
+    position: absolute;
+    left: 10%;
+    top: 11.33%;
+    width: 22.5%;
+    height: 35.22%;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: start;
+}
+
+.section3 .proright {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 39.79%;
+    top: 24.56%;
+    width: 43.44%;
+    height: 55%;
+    color: #777;
+    font-size: 14px;
+}
+
+.section3 .proright .item {
+    flex: 1;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section3 .proright .item .pic {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.section3 .proright .item .pic img,
+.section3 .proright .item .pic img a {
+    width: 100%;
+    height: 100%;
+    border-radius: 120px;
+}
+
+.proright .item:hover {
+    transform: scale(1.3);
+    transition: all .3s;
+}
+
+
+/* 第四屏样式 */
+
+.section4 .ptit {
+    padding-top: 0;
+}
+
+.section4 .container {
+    width: 1320px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section4 img {
+    height: 100%;
+}
+
+.section4 .col-l {
+    float: left;
+    height: 340px;
+    margin-left: 200%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section4 .col-r {
+    float: left;
+    margin-left: -400%;
+    height: 340px;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section4 .ibox {
+    color: #777;
+}
+
+.section4 .ibox h4 {
+    position: relative;
+    top: 20px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 42px 0 14px 0;
+    opacity: 0;
+}
+
+.section4 .infotext {
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    text-align: center;
+    max-width: 1070px;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+
+/* 第五屏样式 */
+
+.section5 .itemleft {
+    position: absolute;
+    left: -100%;
+    top: 3%;
+    width: 34%;
+}
+
+.section5 .infotxt {
+    font-size: 16px;
+    color: #777;
+}
+
+.section5 li {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #777;
+    text-align: start;
+    opacity: 0;
+}
+
+.section5 .ct {
+    padding: 20px 0 0 10px;
+}
+
+.section5 h5 {
+    line-height: 1.1;
+}
+
+.section5 p {
+    line-height: 1.8;
+}
+
+.section5 .itemright {
+    position: absolute;
+    right: -100%;
+    top: 24%;
+    width: 30%;
+}
+
+.itemright img {
+    width: 576px;
+}
+
+
+/* 第六屏样式 */
+
+.section6 .ptit {
+    padding-top: 3%;
+}
+
+.section6 .container {
+    margin: 0 auto;
+    top: 0;
+    width: 1170px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section6 .container ul {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    box-sizing: content-box;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.section6 .container ul li {
+    flex: 1;
+    height: 100%;
+}
+
+.section6 .container ul li img {
+    border-radius: 140px;
+    width: 280px;
+    height: 280px;
+    max-width: 100%;
+    box-shadow: 1px 2px 3px 0 #999;
+}
+
+.section6 .container ul li .tit {
+    padding: 14px 0 0 0;
+    font-size: 20px;
+}
+
+.section6 .container li .tit a {
+    color: #636262;
+}
+
+.section6 .container li .ntime {
+    font-size: 12px;
+    color: #a4a4a4;
+    margin: 5px 0;
+}
+
+
+/* 第七屏样式 */
+
+.section7 .ptit {
+    color: #1a1919;
+    font-size: 42px;
+    padding-top: 3%;
+}
+
+.ctiyselect {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.ctiyselect select {
+    width: 216px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid #cfcfcf;
+    padding-left: 20px;
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 16px;
+    margin-left: 3px;
+    color: #fff;
+    line-height: 44px;
+    background: url(../images/x_ll.png) no-repeat 92% center #000;
+}
+
+.boxmap {
+    height: 368px;
+}
+
+.boxmap img {
+    width: 100%;
+    height: 100%;
+}
